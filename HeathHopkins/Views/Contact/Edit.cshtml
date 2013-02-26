@@ -1,0 +1,13 @@
+﻿@model HeathHopkins.Models.Contact
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@{Html.RenderPartial("Form", Model);}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
